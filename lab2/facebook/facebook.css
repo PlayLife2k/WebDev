@@ -1,0 +1,194 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient(#4d68a1,#3b5998);
+    font-family: 'Segoe UI';
+}
+.facebook-logo{
+    margin: 0%;
+    padding: 0%;
+}
+.facebook-logo h1{
+    color: white;
+    font-size: 40px;
+    margin: 5%;
+}
+.auto-form{
+    padding-top: 10px;
+    font-size: 13px;
+}
+.auto-form table input{
+    border: 1px solid;
+    width: 150px;
+    height: 20px;
+    border-radius: 3px;
+    font-family: 'Segoe UI';
+}
+.auto-form table input[type=submit]{
+    background-color: #4267b2;
+    width: 40px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    border-radius: 3px;
+    height: 25px;
+    border: 1px solid midnightblue;
+}
+.auto-form table #forgot-login{
+    color: lightblue;
+}
+main{
+    display: flex;
+    justify-content: center;
+    padding-right: 50px;
+    padding-left: 50px;
+    background-image: linear-gradient(#ffffff,#D7DCDE);
+}
+.facebook-intro{
+    margin-top: 20px;
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    font-size: 23px;
+    color: #0e385f;
+    font-weight: 900;
+    margin-right: 100px;
+}
+.registration-form{
+    display: flex;
+    margin-right: 0px;
+    flex-direction: column;
+}
+.registration-form a{
+    outline: none;
+}
+.registration-form h1{
+    margin: 0px;
+    margin-left: -10px;
+    padding: 0%;
+    font-family: 'Segoe UI';
+    font-size: 40px;
+    padding: 10px;
+    color: #333333;
+}
+.registration-form h3{
+    margin: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.registration-form input{
+    margin-bottom: 10px;
+
+}
+.registration-form h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    margin-bottom: 20px; 
+}
+.registration-form select{
+    width: 60px;
+    height: 30px;
+}
+.registration-form .up-input{
+    width: 195px;
+    margin-right: 10px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+.registration-form table .btm-input{
+    width: 400px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+.registration-form ::placeholder{
+    color: #99999f;
+}
+.registration-form .regis-type-name{
+    color: #90949c;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.registration-form table label{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.registration-form table tr td p{
+    font-size: 13px;
+    color: #777777;
+}
+a:focus{outline:none;} 
+
+td:hover {
+    background-color:red;
+}
+#registration-btn{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #4f5039;
+    background-image: linear-gradient(#7dbe67,#5d9149);
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+#Spec-account{
+    font-size: 16px;
+}
+footer{
+    margin-top:20px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+hr{
+    width: 850px;
+    border: 0.5px solid grey;
+}
+ul{
+    margin: 0%;
+}
+li{
+    display: inline;
+    font-size: 14px;
+    padding-left:10px;
+    color: #387dc3; 
+}
+.languages{
+    display: flex;
+    margin-right: 180px; 
+}
+
+.languages ul {
+    display: flex;
+    justify-content: start;
+}
+.categories ul li{
+    margin: 1.8px;
+}
+.categories h5{
+    margin-left: 50px;
+    color: #777777;
+}
+
+
+
+
